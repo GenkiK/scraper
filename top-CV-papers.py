@@ -20,7 +20,7 @@ while to < from_ or to > last_year:
 # TODO: AND入力を可能にする
 search_word = input("search word: ").lower()
 
-include_ECCV = input("include ECCV? (It takes some time) / [yes]").lower()
+include_ECCV = input("include ECCV? (It takes some time) / [yes]: ").lower()
 if include_ECCV == "" or include_ECCV == "yes":
     include_ECCV = "yes"
 else:
