@@ -47,6 +47,7 @@ for year in range(from_, to + 1):
 # ECCV
 if include_ECCV == "yes":
     driver.get("https://www.ecva.net/papers.php")
+    from_ = from_ if from_ >= 2018 else 2018
     for year in range(from_, to + 1):
         # ECCVは偶数年のみ開かれる
         if year % 2 == 0:
